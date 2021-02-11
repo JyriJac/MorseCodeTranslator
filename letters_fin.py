@@ -2,32 +2,59 @@
 def letter(input):
     if input == 'A' or input == 'a':
         return [0,1]
-
-B = [1,0,0,0]
-C = [1,0,1,0]
-D = [1,0,0]
-E = [0]
-F = [0,0,1,0]
-G = [1,1,0]
-H = [0,0,0,0]
-I = [0,0]
-J = [0,1,1,1]
-K = [1,0,1]
-L = [0,1,0,0]
-M = [1,1]
-N = [1,0]
-O = [1,1,1]
-P = [0,1,1,0]
-Q = [1,1,0,1]
-R = [0,1,0]
-S = [0,0,0]
-T = [1]
-U = [0,0,1]
-V = [0,0,0,1]
-W = [0,1,1]
-X = [1,0,0,1]
-Y = [1,0,1,1]
-Z = [1,1,0,0]
-Å = [0,1,1,0,1]
-Ä = [1,0,1,0]
-Ö = [1,1,1,0]
+    elif input == 'B' or input == 'b':
+        return [1,0,0,0]
+    elif input == 'C' or input == 'c':
+        return [1,0,1,0]
+    elif input == 'D' or input == 'd':
+        return [1,0,0]
+    elif input == 'E' or input == 'e':
+        return [0]
+    elif input == 'F' or input == 'f':
+        return [0,0,1,0]
+    elif input == 'G' or input == 'g':
+        return [1,1,0]
+    elif input == 'H' or input == 'h':
+        return [0,0,0,0]
+    elif input == 'I' or input == 'i':
+        return [0,0]
+    elif input == 'J' or input == 'j':
+        return [0,1,1,1]
+    elif input == 'K' or input == 'k':
+        return [1,0,1]
+    elif input == 'L' or input == 'l':
+        return [0,1,0,0]
+    elif input == 'M' or input == 'm':
+        return [1,1]
+    elif input == 'N' or input == 'n':
+        return [1,0]
+    elif input == 'O' or input == 'o':
+        return [1,1,1]
+    elif input == 'P' or input == 'p':
+        return [0,1,1,0]
+    elif input == 'Q' or input == 'q':
+        return [1,1,0,1]
+    elif input == 'R' or input == 'r':
+        return [0,1,0]
+    elif input == 'S' or input == 's':
+        return [0,0,0]
+    elif input == 'T' or input == 't':
+        return [1]
+    elif input == 'U' or input == 'u':
+        return [0,0,1]
+    elif input == 'V' or input == 'v':
+        return [0,0,0,1]
+    elif input == 'W' or input == 'w':
+        return [0,1,1]
+    elif input == 'X' or input == 'x':
+        return [1,0,0,1]
+    elif input == 'Y' or input == 'y':
+        return [1,0,1,1]
+    elif input == 'Z' or input == 'z':
+        return [1,1,0,0]
+    elif input == 'Å' or input == 'å':
+        return [0,1,1,0,1]
+    elif input == 'Ä' or input == 'ä':
+        return [1,0,1,0]
+    elif input == 'Ö' or input == 'ö':
+        return [1,1,1,0]

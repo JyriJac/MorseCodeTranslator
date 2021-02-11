@@ -1,11 +1,22 @@
 # 0 = short, 1 = long
-ONE = [1,0,0,0,0]
-TWO = [1,1,0,0,0]
-THREE = [1,1,1,0,0]
-FOUR = [1,1,1,1,0]
-FIVE = [1,1,1,1,1]
-SIX = [0,1,1,1,1]
-SEVEN = [0,0,1,1,1]
-EIGHT = [0,0,0,1,1]
-NINE = [0,0,0,0,1]
-ZERO = [0,0,0,0,0]
+def numbers(input):
+    if input == 1:
+        return [1,0,0,0,0]
+    elif input == 2:
+        return [1,1,0,0,0]
+    elif input == 3:
+        return [1,1,1,0,0]
+    elif input == 4:
+        return [1,1,1,1,0]
+    elif input == 5:
+        return[1,1,1,1,1]
+    elif input == 6:
+        return [0,1,1,1,1]
+    elif input == 7:
+        return [0,0,1,1,1]
+    elif input == 8:
+        return [0,0,0,1,1]
+    elif input == 9:
+        return [0,0,0,0,1]
+    elif input == 0:
+        return [0,0,0,0,0]
