@@ -1,5 +1,8 @@
 # 0 = short, 1 = long
-A = [0,1]
+def letter(input):
+    if input == 'A' or input == 'a':
+        return [0,1]
+
 B = [1,0,0,0]
 C = [1,0,1,0]
 D = [1,0,0]

@@ -7,7 +7,7 @@ def main():
 
     if msg.isalnum():
         for letter in msg:
-            print(letter)
+            print(ltrs.letter(letter))
 
 
 if __name__ == "__main__":
