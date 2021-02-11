@@ -3,28 +3,24 @@ import numbers_fin as nums
 
 
 def main():
-    msg = input("Give message to translate (without special characters.):") #take in message to translate.
+    msg = input("Give message to translate (without spaces or special characters.):") #take in message to translate.
 
     if msg.isalnum(): #check that message contains only letters or numbers.
         for letter in msg: #go trough each letter in message.
-            if letter.isalpha():
-                check = ltrs.letter(letter)
+            if letter.isalpha(): #check whether letter is alphabet or number
+                check = ltrs.letter(letter) #check matching morse code for letter
                 for spot in check:
                     if spot == 0:
-                        print(spot)
-                        #ledi päällä 0.2s
+                        print(spot) #led on 0.2s
                     else:
-                        print(spot)
-                        #ledi päällä 0.7s
+                        print(spot) #led off 0.7s
             else:
-                check = nums.numbers(int(letter))
+                check = nums.numbers(int(letter)) #check matching morse code for number
                 for spot in check:
                     if spot == 0:     
-                        print(spot)
-                        #ledi päällä 0.2s
+                        print(spot) #led on 0.2s
                     else:
-                        print(spot)
-                        #ledi päällä 0.7s
+                        print(spot) #led off 0.7s                     
 
 
 if __name__ == "__main__":
