@@ -3,8 +3,8 @@ import numbers_fin as nums
 
 
 def main():
-    msg = input("Give message to translate (without spaces or special characters.):") #take in message to translate.
-
+    msg_raw = input("Give message to translate (without special characters.):") #take in message to translate.
+    msg = msg_raw.replace(" ", "")
     if msg.isalnum(): #check that message contains only letters or numbers.
         for letter in msg: #go trough each letter in message.
             if letter.isalpha(): #check whether letter is alphabet or number
